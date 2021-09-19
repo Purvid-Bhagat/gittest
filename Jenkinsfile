@@ -4,7 +4,7 @@ pipeline {
         stage('build') {
             steps {
                 sh 'Purvid-Bhagat -a'
-                sh 'echo this is Main Branch'
+                sh 'echo this is Master Branch'
             }
         }
     }
