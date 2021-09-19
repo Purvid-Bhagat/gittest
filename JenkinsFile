@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('build') {
             steps {
-                sh 'Purvid_Bhagat -a'
+                sh 'Purvid-Bhagat -a'
                 sh 'echo this is Testing Branch'
             }
         }
